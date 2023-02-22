@@ -1,0 +1,35 @@
+article,
+details {
+	padding: 2rem;
+	border: 2px solid white;
+	width: 400px;
+	margin: 0 auto;
+	background-color: rgb(64, 64, 64);
+	color: white;
+}
+
+h1,
+summary {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+details > summary {
+	list-style-type: none;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button {
+	height: fit-content;
+}
+
+p {
+	border-top: 1px solid white;
+	padding-top: 1rem;
+	color: grey;
+}
